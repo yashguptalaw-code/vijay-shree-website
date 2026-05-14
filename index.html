@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Shree - Premium Rice & Pulses | B2B FMCG Supplier</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="logo.png" alt="Vijay Shree" class="logo">
+                <span class="brand-name">विजय श्री</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="btn-quote">Get Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel Section -->
+    <section id="home" class="hero">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item active" style="background: linear-gradient(135deg, #8B3A3A 0%, #D4A574 100%);">
+                    <div class="slide-content">
+                        <img src="dal-packet-1.png" alt="Arhar Dal" class="product-slide">
+                        <div class="slide-text">
+                            <h2>अरहर दाल - Arhar Dal</h2>
+                            <p>100% शुद्धता | High Protein | Natural</p>
+                            <button class="btn-primary">Explore Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background: linear-gradient(135deg, #8B3A3A 0%, #D4A574 100%);">
+                    <div class="slide-content">
+                        <img src="rice-packet-1.png" alt="Basmati Rice" class="product-slide">
+                        <div class="slide-text">
+                            <h2>Basmati Rice - बासमती चावल</h2>
+                            <p>Premium Quality | Wholesale Price | 1kg & 30kg</p>
+                            <button class="btn-primary">Explore Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background: linear-gradient(135deg, #8B3A3A 0%, #D4A574 100%);">
+                    <div class="slide-content">
+                        <img src="dal-packet-2.png" alt="Moong Dal" class="product-slide">
+                        <div class="slide-text">
+                            <h2>मूंग दाल - Moong Dal</h2>
+                            <p>Rich in Fiber | Easy to Cook | Bulk Orders Welcome</p>
+                            <button class="btn-primary">Explore Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
+            <button class="carousel-btn next" onclick="changeSlide(1)">›</button>
+            <div class="carousel-dots">
+                <span class="dot active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- USP Section -->
+    <section class="usp">
+        <div class="container">
+            <div class="usp-grid">
+                <div class="usp-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>100% Pure</h3>
+                    <p>No Adulterants | Quality Guaranteed</p>
+                </div>
+                <div class="usp-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Pan-India Shipping | 2-3 Days Delivery</p>
+                </div>
+                <div class="usp-card">
+                    <i class="fas fa-tags"></i>
+                    <h3>Wholesale Rates</h3>
+                    <p>Direct from Manufacturer | Best Prices</p>
+                </div>
+                <div class="usp-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Premium Quality</h3>
+                    <p>ISO Certified | Lab Tested</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Premium Products</h2>
+            <p class="section-subtitle">Available in 1kg & 30kg Packaging</p>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="dal-packet-1.png" alt="Arhar Dal">
+                        <span class="badge">Popular</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Arhar Dal (अरहर दाल)</h3>
+                        <p class="product-desc">Toor / Arhar - Rich in protein & fiber</p>
+                        <div class="pricing">
+                            <span class="price-1kg">₹80/kg</span>
+                            <span class="price-30kg">₹2,100 (30kg)</span>
+                        </div>
+                        <button class="btn-add-cart">Get Quote</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="rice-packet-1.png" alt="Basmati Rice">
+                        <span class="badge premium">Premium</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Basmati Rice (बासमती)</h3>
+                        <p class="product-desc">Long grain, aromatic, perfect for all dishes</p>
+                        <div class="pricing">
+                            <span class="price-1kg">₹120/kg</span>
+                            <span class="price-30kg">₹3,200 (30kg)</span>
+                        </div>
+                        <button class="btn-add-cart">Get Quote</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="dal-packet-2.png" alt="Moong Dal">
+                        <span class="badge">Best Seller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Moong Dal (मूंग दाल)</h3>
+                        <p class="product-desc">Split mung beans - Easy to cook, highly nutritious</p>
+                        <div class="pricing">
+                            <span class="price-1kg">₹95/kg</span>
+                            <span class="price-30kg">₹2,400 (30kg)</span>
+                        </div>
+                        <button class="btn-add-cart">Get Quote</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="rice-packet-2.png" alt="Regular Rice">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Rice (चावल)</h3>
+                        <p class="product-desc">Regular polished rice - Daily use quality</p>
+                        <div class="pricing">
+                            <span class="price-1kg">₹50/kg</span>
+                            <span class="price-30kg">₹1,350 (30kg)</span>
+                        </div>
+                        <button class="btn-add-cart">Get Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Vijay Shree?</h2>
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <h3>Direct from Manufacturer</h3>
+                    <p>Skip middlemen & get the best wholesale rates directly from our manufacturing facility</p>
+                </div>
+                <div class="why-card">
+                    <h3>Flexible Packaging</h3>
+                    <p>Choose between 1kg retail packs or 30kg bulk orders - perfect for retailers & wholesalers</p>
+                </div>
+                <div class="why-card">
+                    <h3>Quality Assurance</h3>
+                    <p>Every batch is lab tested and ISO certified. 100% purity guaranteed</p>
+                </div>
+                <div class="why-card">
+                    <h3>Bulk Order Benefits</h3>
+                    <p>Special discounts for large orders. Dedicated account managers for wholesale clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>10,000+</h3>
+                <p>Happy Retailers</p>
+            </div>
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Wholesale Partners</p>
+            </div>
+            <div class="stat-item">
+                <h3>20+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Pure Quality</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Vijay Shree</h2>
+                    <p>Established over 20 years ago, Vijay Shree has become a trusted name in rice and pulses supply across India. We specialize in providing premium quality products directly to retailers and wholesalers.</p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check"></i> ISO 9001:2015 Certified</li>
+                        <li><i class="fas fa-check"></i> FSSAI Registered</li>
+                        <li><i class="fas fa-check"></i> Pan-India Distribution Network</li>
+                        <li><i class="fas fa-check"></i> Advanced Sorting & Processing Facility</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="about-image.png" alt="Vijay Shree Facility">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Vijay Shree Manufacturing Facility<br>Indore, Madhya Pradesh, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-XXXXXXXXXX<br>+91-XXXXXXXXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>sales@vijayshree.com<br>wholesale@vijayshree.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <select required>
+                        <option>Select Your Interest</option>
+                        <option>Bulk Order</option>
+                        <option>Retail Partnership</option>
+                        <option>Wholesale Account</option>
+                        <option>Others</option>
+                    </select>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Partner with Vijay Shree?</h2>
+            <p>Get exclusive wholesale rates and direct access to our manufacturing facility</p>
+            <button class="btn-large">Start Your Order Today</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Vijay Shree</h4>
+                    <p>Premium Rice & Pulses Supplier</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vijay Shree. All rights reserved. | Designed for B2B Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
